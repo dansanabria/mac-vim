@@ -4,3 +4,9 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "/Users/daniels/.vim/bundle/puppet"]
+	path = /Users/daniels/.vim/bundle/puppet
+	url = git://github.com/rodjek/vim-puppet.git
