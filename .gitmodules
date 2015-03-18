@@ -10,3 +10,6 @@
 [submodule "/Users/daniels/.vim/bundle/puppet"]
 	path = /Users/daniels/.vim/bundle/puppet
 	url = git://github.com/rodjek/vim-puppet.git
+[submodule "/Users/daniels/.vim/bundle/vim-nerdtree-tabs"]
+	path = /Users/daniels/.vim/bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git

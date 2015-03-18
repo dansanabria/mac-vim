@@ -41,3 +41,6 @@ filetype plugin indent on
 
 " Turn on line numbering:
 set number
+
+" Mapping leader+n to toggle NERDTreeTabs
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
