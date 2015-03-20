@@ -11,7 +11,7 @@ filetype plugin indent on
 set fo=tcq
 set nocompatible
 set modeline
-" set bg=dark
+set bg=dark
 
 " set default comment color to cyan instead of darkblue
 " which is not very legible on a black background
@@ -44,3 +44,6 @@ set number
 
 " Mapping leader+n to toggle NERDTreeTabs
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
