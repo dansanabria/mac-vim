@@ -13,3 +13,9 @@
 [submodule "/Users/daniels/.vim/bundle/vim-nerdtree-tabs"]
 	path = /Users/daniels/.vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/bundle/ack"]
+	path = bundle/bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
