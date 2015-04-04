@@ -2,6 +2,8 @@ call pathogen#infect()
 call pathogen#helptags()
 colorscheme base16-tomorrow
 " set background=dark
+" you are using a 256 terminal theme you need to set this
+let base16colorspace=256
 syntax on
 filetype plugin indent on
 
@@ -47,3 +49,13 @@ map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
+
+" keybinding for tabs
+map <F7> <Esc>:tabp<CR>
+map <F8> <Esc>:tabn<CR>
+
+" Open a new tab and search for something
+nmap <leader>a :tab split<CR>:Ack ""<Left>
+
+" Inmediatly search for the word under the cursor in a new tab
+nmap <leader>a :tab split<CR>Ack <C-r><C-w><CR>
