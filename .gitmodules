@@ -19,3 +19,15 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "/Users/daniels/.vim/bundle/lightline"]
+	path = /Users/daniels/.vim/bundle/lightline
+	url = http://github.com/itchyny/lightline.vim
+[submodule "/Users/daniels/.vim/bundle/tmuxline"]
+	path = /Users/daniels/.vim/bundle/tmuxline
+	url = https://github.com/edkolev/tmuxline.vim
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = git://github.com/SirVer/ultisnips.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git

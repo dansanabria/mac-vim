@@ -3,9 +3,9 @@ call pathogen#helptags()
 colorscheme base16-tomorrow
 " set background=dark
 " you are using a 256 terminal theme you need to set this
-let base16colorspace=256
+"let base16colorspace=256
 syntax on
-filetype plugin indent on
+filetype on
 
 " turn off auto adding comments on next line
 " so you can cut and paste reliably
@@ -58,4 +58,23 @@ map <F8> <Esc>:tabn<CR>
 nmap <leader>a :tab split<CR>:Ack ""<Left>
 
 " Inmediatly search for the word under the cursor in a new tab
-nmap <leader>a :tab split<CR>Ack <C-r><C-w><CR>
+nmap <leader>A :tab split<CR>Ack <C-r><C-w><CR>
+
+" enabling lightline
+set laststatus=2
+
+let g:lightline = {
+      \ 'colorscheme': 'Tomorrow_Night',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component': {
+      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
+      \ },
+      \ 'component_visible_condition': {
+      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
+      \ },
+      \ }
+" Disabling powrline separators for tmuxline
+let g:tmuxline_powerline_separators = 0
