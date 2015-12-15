@@ -3,7 +3,7 @@ call pathogen#helptags()
 colorscheme base16-tomorrow
 " set background=dark
 " you are using a 256 terminal theme you need to set this
-"let base16colorspace=256
+let base16colorspace=256
 syntax on
 filetype on
 
