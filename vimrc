@@ -78,3 +78,6 @@ let g:lightline = {
       \ }
 " Disabling powrline separators for tmuxline
 let g:tmuxline_powerline_separators = 0
+
+" setting suppertab for omnicompletion
+let g:SuperTabDefaultCompletionType = "context"
