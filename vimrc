@@ -1,11 +1,14 @@
-call pathogen#infect()
-call pathogen#helptags()
-colorscheme base16-tomorrow
-" set background=dark
-" you are using a 256 terminal theme you need to set this
-let base16colorspace=256
+execute pathogen#infect()
 syntax on
-filetype on
+
+" settings for base16 schemes
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
+
+" mapping double s to esc
+inoremap § <esc>
 
 " turn off auto adding comments on next line
 " so you can cut and paste reliably
@@ -13,7 +16,6 @@ filetype on
 set fo=tcq
 set nocompatible
 set modeline
-set bg=dark
 
 " set default comment color to cyan instead of darkblue
 " which is not very legible on a black background
@@ -81,3 +83,10 @@ let g:tmuxline_powerline_separators = 0
 
 " setting suppertab for omnicompletion
 let g:SuperTabDefaultCompletionType = "context"
+
+" use ack.vim to drive ag
+let g:ackprg = 'ag --vimgrep --smart-case'
+cnoreabbrev ag Ack
+cnoreabbrev aG Ack
+cnoreabbrev Ag Ack
+cnoreabbrev AG Ack

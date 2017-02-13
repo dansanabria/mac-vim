@@ -7,11 +7,11 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
-[submodule "/Users/daniels/.vim/bundle/puppet"]
-	path = /Users/daniels/.vim/bundle/puppet
+[submodule "bundle/puppet"]
+	path = bundle/puppet
 	url = git://github.com/rodjek/vim-puppet.git
-[submodule "/Users/daniels/.vim/bundle/vim-nerdtree-tabs"]
-	path = /Users/daniels/.vim/bundle/vim-nerdtree-tabs
+[submodule "bundle/vim-nerdtree-tabs"]
+	path = bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
@@ -19,11 +19,11 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "/Users/daniels/.vim/bundle/lightline"]
-	path = /Users/daniels/.vim/bundle/lightline
+[submodule "bundle/lightline"]
+	path = bundle/lightline
 	url = http://github.com/itchyny/lightline.vim
-[submodule "/Users/daniels/.vim/bundle/tmuxline"]
-	path = /Users/daniels/.vim/bundle/tmuxline
+[submodule "bundle/tmuxline"]
+	path = bundle/tmuxline
 	url = https://github.com/edkolev/tmuxline.vim
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
