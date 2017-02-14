@@ -25,6 +25,7 @@ set tabstop=2
 set expandtab
 set softtabstop=2
 set shiftwidth=2
+set backspace=2
 
 highlight LiteralTabs ctermbg=darkgreen guibg=darkgreen
 match LiteralTabs /\s\	/
@@ -80,9 +81,6 @@ let g:lightline = {
       \ }
 " Disabling powrline separators for tmuxline
 let g:tmuxline_powerline_separators = 0
-
-" setting suppertab for omnicompletion
-let g:SuperTabDefaultCompletionType = "context"
 
 " use ack.vim to drive ag
 let g:ackprg = 'ag --vimgrep --smart-case'
