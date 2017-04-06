@@ -1,11 +1,9 @@
 execute pathogen#infect()
 syntax on
 
-" settings for base16 schemes
-if filereadable(expand("~/.vimrc_background"))
-  let base16colorspace=256
-  source ~/.vimrc_background
-endif
+" setting up colorscheme
+set termguicolors
+colorscheme gruvbox
 
 " mapping double s to esc
 inoremap § <esc>
@@ -67,7 +65,7 @@ nmap <leader>A :tab split<CR>Ack <C-r><C-w><CR>
 set laststatus=2
 
 let g:lightline = {
-      \ 'colorscheme': 'Tomorrow_Night',
+      \ 'colorscheme': 'gruvbox',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
