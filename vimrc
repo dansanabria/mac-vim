@@ -46,7 +46,7 @@ filetype plugin indent on
 set number
 
 " Mapping leader+n to toggle NERDTreeTabs
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
+map <Leader>N <plug>NERDTreeTabsToggle<CR>
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
@@ -128,9 +128,7 @@ execute "set rtp+=" . g:opamshare . "/merlin/vim"
 let g:merlin_completion_with_doc = 1
 
 let g:syntastic_ocaml_checkers = ['merlin']
-if !exists('g:neocomplete#force_omni_input_patterns')
-  let g:neocomplete#force_omni_input_patterns = {}
-endif
+
 let g:neocomplete#force_omni_input_patterns.ocaml = '[^. *\t]\.\w*\|\h\w*|#'
 
 " close preview once completion is done
