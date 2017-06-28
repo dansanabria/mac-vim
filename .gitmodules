@@ -52,3 +52,6 @@
 [submodule "bundle/gruvbox"]
 	path = bundle/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = git@github.com:hashivim/vim-terraform.git
