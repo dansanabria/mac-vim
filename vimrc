@@ -140,3 +140,6 @@ let g:slime_default_config = {"socket_name": "default", "target_pane": "1"}
 
 " Enabling terraform specific indentation
 let g:terraform_align=1
+
+" syntastic settings for terraform
+let g:syntastic_terraform_tffilter_plan = 0

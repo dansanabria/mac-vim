@@ -55,3 +55,6 @@
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
 	url = git@github.com:hashivim/vim-terraform.git
+[submodule "bundle/vim-terraform-completion"]
+	path = bundle/vim-terraform-completion
+	url = git@github.com:juliosueiras/vim-terraform-completion.git
