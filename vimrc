@@ -143,3 +143,12 @@ let g:terraform_align=1
 
 " syntastic settings for terraform
 let g:syntastic_terraform_tffilter_plan = 0
+
+" tagging for ruby
+set tags+=./tags
+map <C-F12> :!ctags -R --exclude=.git --exclude=logs --exclude=doc .<CR>
+au BufRead,BufNewFile *.rb setlocal tags+=~/.vim/tags/ruby_2.4.0,~/.vim/tags/gems_inspec-azure
+
+" using v to esc in visual mode
+cno jj <c-c>
+vno v <esc>
