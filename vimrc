@@ -5,6 +5,12 @@ syntax on
 set termguicolors
 colorscheme gruvbox
 
+" setting dark background on Linux
+let s:uname = system("echo -n \"$(uname)\"")
+if !v:shell_error && s:uname == "Linux"
+  set background=dark
+endif
+
 " mapping double s to esc
 inoremap § <esc>
 
