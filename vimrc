@@ -152,7 +152,7 @@ let g:syntastic_terraform_tffilter_plan = 0
 
 " tagging for ruby
 set tags+=./tags
-map <C-F12> :!ctags -R --exclude=.git --exclude=logs --exclude=doc .<CR>
+map <C-F12> :!ctags -R --exclude=.git --exclude=logs --exclude=doc --exclude=node_modules .<CR>
 au BufRead,BufNewFile *.rb setlocal tags+=~/.vim/tags/ruby_2.4.0,~/.vim/tags/gems_inspec-azure
 
 " using v to esc in visual mode
