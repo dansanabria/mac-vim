@@ -61,3 +61,6 @@
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = git@github.com:vim-scripts/taglist.vim.git
+[submodule "bundle/syntastic-extras"]
+	path = bundle/syntastic-extras
+	url = git@github.com:myint/syntastic-extras.git
