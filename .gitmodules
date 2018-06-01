@@ -64,3 +64,6 @@
 [submodule "bundle/vim-javacomplete2"]
 	path = bundle/vim-javacomplete2
 	url = https://github.com/artur-shaik/vim-javacomplete2.git
+[submodule "bundle/syntastic-extras"]
+	path = bundle/syntastic-extras
+	url = git@github.com:myint/syntastic-extras.git
