@@ -102,6 +102,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_yaml_checkers = ['pyyaml']
+let g:syntastic_make_checkers = ['gnumake']
 
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = -1
@@ -163,5 +165,4 @@ imap <F6> <Plug>(JavaComplete-Imports-AddMissing)
 " To remove all unused imports with F7:
 nmap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
 imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
-
 
