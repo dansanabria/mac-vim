@@ -170,3 +170,6 @@ imap <F7> <Plug>(JavaComplete-Imports-RemoveUnused)
 let g:UltiSnipsExpandTrigger = '<C-j>'
 let g:UltiSnipsJumpForwardTrigger = '<C-j>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
+
+" Set Vagrantfile file type to ruby
+au BufRead Vagrantfile setf ruby
