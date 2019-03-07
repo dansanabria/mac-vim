@@ -118,7 +118,7 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 " adding merlin support
 """"""""""""""""""""""""""""""""""""""
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
-execute "set rtp+=" . g:opamshare . "/merlin/vim"
+" execute "set rtp+=" . g:opamshare . "/merlin/vim"
 let g:merlin_completion_with_doc = 1
 
 let g:syntastic_ocaml_checkers = ['merlin']
