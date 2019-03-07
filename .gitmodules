@@ -58,3 +58,6 @@
 [submodule "bundle/syntastic-extras"]
 	path = bundle/syntastic-extras
 	url = git@github.com:myint/syntastic-extras.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
