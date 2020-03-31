@@ -7,9 +7,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
-[submodule "bundle/puppet"]
-	path = bundle/puppet
-	url = git://github.com/rodjek/vim-puppet.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
@@ -43,24 +40,15 @@
 [submodule "bundle/gruvbox"]
 	path = bundle/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
-[submodule "bundle/vim-terraform"]
-	path = bundle/vim-terraform
-	url = git@github.com:hashivim/vim-terraform.git
-[submodule "bundle/vim-terraform-completion"]
-	path = bundle/vim-terraform-completion
-	url = git@github.com:juliosueiras/vim-terraform-completion.git
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = git@github.com:vim-scripts/taglist.vim.git
-[submodule "bundle/vim-javacomplete2"]
-	path = bundle/vim-javacomplete2
-	url = https://github.com/artur-shaik/vim-javacomplete2.git
 [submodule "bundle/syntastic-extras"]
 	path = bundle/syntastic-extras
 	url = git@github.com:myint/syntastic-extras.git
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "bundle/vim-go"]
-	path = bundle/vim-go
-	url = https://github.com/fatih/vim-go.git
+[submodule "bundle/coc-vim"]
+	path = bundle/coc-vim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
