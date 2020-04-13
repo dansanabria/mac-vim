@@ -17,5 +17,9 @@
     "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json": "/*.yml"
   },
   "yaml.trace.server": "verbose",
-  "coc.preferences.extensionUpdateCheck": "daily"
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "gosnippets/UltiSnips"
+  ]
 }
