@@ -63,10 +63,10 @@ map <F7> <Esc>:tabp<CR>
 map <F8> <Esc>:tabn<CR>
 
 " Open a new tab and search for something
-nmap <leader>a :tab split<CR>:Ack ""<Left>
+nmap <leader>s :tab split<CR>:Ack ""<Left>
 
 " Inmediatly search for the word under the cursor in a new tab
-nmap <leader>A :tab split<CR>Ack <C-r><C-w><CR>
+nmap <leader>S :tab split<CR>Ack <C-r><C-w><CR>
 
 " enabling lightline
 set laststatus=2
@@ -287,3 +287,13 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+" vim-go settings
+" setting autowrite so that GoBuild writes the contents of the file
+" automatically via make
+set autowrite
+
+" Jump between errors in quickfix lists
+" map <C-q> :cnext<CR>
+" map <C-b> :cprevious<CR>
+nnoremap <leader>cl :cclose<CR>
