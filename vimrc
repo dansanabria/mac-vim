@@ -304,4 +304,4 @@ let g:go_auto_type_info = 1
 " update info faster - from default 800ms
 set updatetime=100
 " disable vim-go autocomplete
-let g:go_code_completion_enabled = 0
+" let g:go_code_completion_enabled = 0
