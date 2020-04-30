@@ -29,5 +29,6 @@
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "gosnippets/UltiSnips"
-  ]
+  ],
+  "snippets.snipmate.enable": true
 }
