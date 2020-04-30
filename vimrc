@@ -300,8 +300,9 @@ nnoremap <leader>cl :cclose<CR>
 " calling go-info with  \i
 autocmd FileType go nmap <Leader>i <Plug>(go-info)
 " automatically show info
-let g:go_auto_type_info = 1
+" let g:go_auto_type_info = 1
 " update info faster - from default 800ms
-set updatetime=100
+" set updatetime=100
 " disable vim-go autocomplete
-" let g:go_code_completion_enabled = 0
+let g:go_code_completion_enabled = 0
+
