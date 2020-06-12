@@ -37,9 +37,6 @@
 [submodule "bundle/syntastic-extras"]
 	path = bundle/syntastic-extras
 	url = git@github.com:myint/syntastic-extras.git
-[submodule "bundle/vim-terraform"]
-	path = bundle/vim-terraform
-	url = https://github.com/hashivim/vim-terraform.git
 [submodule "bundle/coc-vim"]
 	path = bundle/coc-vim
 	url = https://github.com/neoclide/coc.nvim.git
