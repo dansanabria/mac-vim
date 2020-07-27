@@ -41,10 +41,10 @@ match ExtraWhitespace /\s\+$/
 set ruler
 
 " Set up puppet manifest and spec options
-au BufRead,BufNewFile *.pp
-  \ set filetype=puppet
-au BufRead,BufNewFile *_spec.rb
-  \ nmap <F8> :!rspec --color %<CR>
+" au BufRead,BufNewFile *.pp
+"   \ set filetype=puppet
+" au BufRead,BufNewFile *_spec.rb
+"   \ nmap <F8> :!rspec --color %<CR>
 
 " Enable indentation matching for =>'s
 filetype plugin indent on
@@ -115,22 +115,6 @@ let g:syntastic_json_checkers = ['json_tool']
 "autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 "autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
-""""""""""""""""""""""""""""""""""""""
-" adding merlin support
-""""""""""""""""""""""""""""""""""""""
-"let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
-"" execute "set rtp+=" . g:opamshare . "/merlin/vim"
-"let g:merlin_completion_with_doc = 1
-"
-"let g:syntastic_ocaml_checkers = ['merlin']
-
-" close preview once completion is done
-" au! CompleteDone * :pclose
-
-"" vim-slime settings
-"let g:slime_target = "tmux"
-"let g:slime_default_config = {"socket_name": "default", "target_pane": "1"}
-
 " Enabling terraform specific indentation
 let g:terraform_align=1
 
@@ -156,7 +140,7 @@ let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "terraform"]
 
 " Set Vagrantfile file type to ruby
-au BufRead Vagrantfile setf ruby
+"au BufRead Vagrantfile setf ruby # adds garbage to the first line 
 
 " COC config
 " if hidden is not set, TextEdit might fail.
