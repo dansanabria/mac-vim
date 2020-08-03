@@ -20,11 +20,12 @@
     }
   },
   "yaml.schemas": {
+    "http://json.schemastore.org/helmfile": "/Users/dan/workarea/fdx/helm-charts/*.yaml",
     "kubernetes": "/*.yaml",
     "https://raw.githubusercontent.com/docker/compose/master/compose/config/config_schema_v3.7.json": "/docker-compose.yml",
     "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json": "/*.yml"
   },
-  "yaml.trace.server": "verbose",
+  "yaml.validate": false,
   "coc.preferences.extensionUpdateCheck": "daily",
   "snippets.ultisnips.directories": [
     "UltiSnips",
