@@ -52,9 +52,6 @@ filetype plugin indent on
 " Turn on line numbering:
 set number
 
-" Mapping leader+n to toggle NERDTreeTabs
-map <Leader>N <plug>NERDTreeTabsToggle<CR>
-
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 
@@ -123,6 +120,9 @@ let g:syntastic_terraform_tffilter_plan = 0
 
 " (Optional) Default: 0, enable(1)/disable(0) plugin's keymapping
 let g:terraform_completion_keys = 1
+
+" Terraform fmt on save
+let g:terraform_fmt_on_save=1
 
 "" tagging for ruby
 "set tags+=./tags
