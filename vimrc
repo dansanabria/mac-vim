@@ -42,7 +42,12 @@ set ruler
 
 " Set bash as shell with the login option so that bash_profile
 " is sourced.
-let &shell='/usr/local/bin/bash --login'
+if has("unix")
+  let s:uname = system("uname -s")
+  if s:uname == "Darwin"
+    let &shell='/usr/local/bin/bash --login'
+  endif
+endif
 
 " Loading ftplugin files
 filetype plugin indent on
@@ -300,3 +305,13 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+"colorscheme for vim terminal
+let g:terminal_ansi_colors = [
+  \'#282828', '#CC241D', '#98971A', '#D79921',
+  \'#458588', '#B16286', '#689D6A', '#D65D0E',
+  \'#fb4934', '#b8bb26', '#fabd2f', '#83a598',
+  \'#d3869b', '#8ec07c', '#fe8019', '#FBF1C7' ]
+
+highlight Terminal guibg='#282828'
+highlight Terminal guifg='#ebdbb2'

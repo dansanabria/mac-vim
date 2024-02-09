@@ -6,7 +6,7 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
@@ -41,3 +41,9 @@
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "bundle/copilot"]
+	path = bundle/copilot
+	url = https://github.com/github/copilot.vim
+[submodule "bundle/vim-ai"]
+	path = bundle/vim-ai
+	url = git@github.com:madox2/vim-ai.git
